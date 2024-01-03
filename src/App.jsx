@@ -4,8 +4,8 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import SignIn from "./pages/Signin";
-import SignUp from "./pages/Signup";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import UpdatePoll from "./pages/UpdatePoll";
 
