@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 
 export default function Header() {
   const { currentUser } = useSelector((state) => state.user);
-  const username=JSON.parse(currentUser.body).user.username
+  const username=JSON.parse(currentUser?.body).user.username
   // console.log(currentUser);
   const dispatch = useDispatch();
   const navigate=useNavigate()
